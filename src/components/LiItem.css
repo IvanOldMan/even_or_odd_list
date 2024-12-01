@@ -1,0 +1,19 @@
+li {
+    border: 1px solid tomato;
+    list-style: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+li:hover {
+    transform: scaleX(1.02);
+    transition: 0.2s;
+}
+
+.even {
+    background-color: red;
+}
+
+.odd {
+    background-color: blue;
+}
